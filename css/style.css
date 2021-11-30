@@ -2045,6 +2045,8 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   font-size: 20px;
 }
 
+
+
 .shuffle-item
   .project-img-container
   .project-item-info-content
@@ -2261,10 +2263,22 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   font-size: 16px;
   font-style: italic;
 }
+.expologo{
+  display: flex;
+  justify-content: center;
+}
+
+.expologo img{
+  width: 32% !important;
+}
 
 @media (max-width: 575px) {
   .quote-item .quote-text {
     padding: 0 40px 30px 50px;
+  }
+
+  .expologo img{
+    width: 50% !important;
   }
 }
 
