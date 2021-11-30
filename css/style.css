@@ -2275,7 +2275,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   }
 
   .expologo img{
-    width: 63% !important;
+    width: 70% !important;
   }
 }
 
@@ -2323,6 +2323,9 @@ img.testimonial-thumb {
 @media (max-width: 575px) {
   .quote-item-footer {
     margin-left: 0;
+  }
+  .expologo img{
+    width: 70% !important;
   }
 }
 
@@ -2399,6 +2402,10 @@ img.testimonial-thumb {
     text-align: center;
     padding: 30px 0;
     min-height: auto;
+  }
+
+  .expologo img{
+    width: 70% !important;
   }
 }
 
@@ -2917,6 +2924,10 @@ img.testimonial-thumb {
   .ts-team-wrapper {
     text-align: center;
   }
+
+  .expologo img{
+    width: 70% !important;
+  }
 }
 
 .ts-team-wrapper .ts-team-content {
@@ -3341,6 +3352,9 @@ label {
     width: 40px;
     height: 40px;
     margin-right: 25px;
+  }
+  .expologo img{
+    width: 70% !important;
   }
 }
 
