@@ -618,6 +618,8 @@ ul.top-info li p.info-text {
 /* Top social */
 .top-social .social-icon {
   display: inline-block !important;
+  font-size: 22px !important;
+  margin-top: 5px;
 }
 
 .top-social ul {
