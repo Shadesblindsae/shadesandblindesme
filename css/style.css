@@ -297,6 +297,8 @@ a:focus {
     flex-direction: column;
     align-items: center;
   }
+
+  
 }
 
 /* Column title */
@@ -516,6 +518,7 @@ a[href^="tel"] {
   .btn-dark {
     font-size: 13px;
   }
+
 }
 
 .btn-white.btn-primary {
@@ -1875,7 +1878,8 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   }
 
   .logoText{
-    font-size: 30px;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 }
 
@@ -1994,6 +1998,10 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   transition: all 400ms;
+}
+
+.extra-content:after{
+  content: none !important;
 }
 
 .shuffle-item .project-img-container:hover:after {
@@ -3915,19 +3923,28 @@ label {
   .slider-area2 .hero-cap h2 {
     font-size: 50px;
   }
+  .logoText{
+    font-size: 25px !important;
+  }
 }
 
 @media (max-width: 575px) {
   .slider-area2 .hero-cap h2 {
     font-size: 27px;
   }
+
+  .logoText{
+    font-size: 25px !important;
+  }
+  
 }
 
 .logoText {
-  font-size: 30px;
-  font-family: "Font Awesome 5 Brands";
-  font-weight: 800;
+  font-size: 36px;
+  font-family: 'Italianno', cursive;
+font-family: 'Luxurious Script', cursive;
   color: #000;
+  white-space: nowrap;
 }
 
 .gallery-image {

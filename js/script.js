@@ -249,11 +249,11 @@ jQuery(function ($) {
 				transition: 'slideshow',
 				innerHeight: '500'
 			});
-			$('.popup').colorbox({
-				iframe: true,
-				innerWidth: 600,
-				innerHeight: 400
-			});
+			// $('.popup').colorbox({
+			// 	iframe: true,
+			// 	innerWidth: 600,
+			// 	innerHeight: 400
+			// });
 		}
 		mediaPopup();
 
