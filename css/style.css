@@ -3928,6 +3928,8 @@ label {
   .logoText{
     font-size: 25px !important;
   }
+
+
 }
 
 @media (max-width: 575px) {
@@ -3935,10 +3937,32 @@ label {
     font-size: 27px;
   }
 
-  .logoText{
-    font-size: 25px !important;
+  .logoText {
+    font-size: 34px !important;
+  }
+  #engText ,#logoImage{
+    margin-bottom: 11px !important;
   }
   
+}
+
+@media (max-width: 300px) {
+
+
+  .logoText {
+    font-size: 28px !important;
+  }
+  
+  #engText ,#logoImage{
+    margin-bottom: 11px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .logoText{
+    font-size: 30px !important;
+  }
 }
 
 .logoText {
@@ -3947,6 +3971,11 @@ label {
 font-family: 'Luxurious Script', cursive;
   color: #000;
   white-space: nowrap;
+}
+
+#engText{
+  color: #caa10b;
+  font-weight: bold;
 }
 
 .gallery-image {
