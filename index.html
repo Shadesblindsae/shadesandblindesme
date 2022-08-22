@@ -803,6 +803,19 @@
     <script src="js/script.js"></script>
   </div>
   <!-- Body inner end -->
+  <script>
+  document.addEventListener('click', function(e){
+    if(e.target.closest('a[href^="https://wa.me/message/"]')){
+      gtag('event', 'conversion', {'send_to': 'AW-10948993824/ErdQCM3TzdcDEKDG8eQo'});
+    }
+    if(e.target.closest('a[href="tel:+971549906321"]')){
+      gtag('event', 'conversion', {'send_to': 'AW-10948993824/Q8GXCMyg_dcDEKDG8eQo'});
+    }
+    if(e.target.closest('#contact-form button[type="submit"]')){
+      gtag('event', 'conversion', {'send_to': 'AW-10948993824/P5YqCJnMzdcDEKDG8eQo'});
+    }
+  });
+</script>
 </body>
 
 </html>
